@@ -1,0 +1,22 @@
+{
+  "name": "forhostinger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vildaK-hub/forHostinger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vildaK-hub/forHostinger/issues"
+  },
+  "homepage": "https://github.com/vildaK-hub/forHostinger#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.13.16"
+  }
+}

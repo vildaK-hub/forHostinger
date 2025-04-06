@@ -17,7 +17,7 @@ test('Make Online order', async ({ page }) => {
   await order.roleIsVisible(product);
   const priceText = await order.getTotalText();
   const priceFor1 = parseFloat(priceText.slice(1)).toFixed(2);
-  const priceFor2 = parseFloat(2*priceFor1).toFixed(2);
+  const priceFor2 = parseFloat(2 * priceFor1).toFixed(2);
   console.log("Price for 1 quantity: " + priceFor1);
   console.log("Price for 2 quantities: " + priceFor2);
   await order.plusBtn.click();
